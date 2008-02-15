@@ -1,0 +1,3 @@
+make clean
+make
+nvcc gridclean.cu *.o -I /home/baggio/NVIDIA_CUDA_SDK/common/inc/ -L /home/baggio/NVIDIA_CUDA_SDK/lib/ -lcuda -lcudart -lcutil -lGL -lGLU -arch sm_11 -lQtOpenGL -lQtGui -lQtCore -lGLU -lGL -lpthread -lglut
